@@ -1,0 +1,5 @@
+services:
+  backend:
+    environment:
+      SECRET_KEY: sk_test_51JgsTjI1kL9gX8NEc83W8Mi5go1o3EehOrV1ktI07Pqo8bAMDn0zSSo3k43NS9dvwMQnpwZZsI4IcO6FSXSQPHpe00jJq63I8b
+      API_KEY: pk_test_51JgsTjI1kL9gX8NEeCImaxoVyd70yQxFCydiGJ4kZb4xGsVKS5XwxC1dlqBtZ226dJ7zSlREIhy89yuTBrR7pFVl00WU5ED6oB
