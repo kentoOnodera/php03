@@ -1,7 +1,7 @@
 const express = require('express')
 const app = express()
 const port = 8008
-const stripe = require('stripe')('sk_test_51JgsTjI1kL9gX8NEY2xmukVMA0F4c5zrCfHT77DFusrx9IV8zUgPqbWj4FP8Y86QBOhv9ZFlvQ07cjNpZzTNm0kQ00HK7KkFEJ');
+const stripe = require('stripe')();
 
 app.get('/', async(req, res) => {
   //エクスプレスアカウントを使用
